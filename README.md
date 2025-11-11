@@ -1,8 +1,10 @@
-# Student at the University at Buffalo SUNY
+# Mathematics Student at the University at Buffalo SUNY
 
 ### Education
 Bachelor of Science in Mathematics
+
 Concentration: Pure Mathematics
+
 Related Coursework: Computing in Python, Data Structures, Discrete Mathematics, Calculus Sequence 1-3, Linear Algebra, Scientific 
 and Mathematical Computing 
 
