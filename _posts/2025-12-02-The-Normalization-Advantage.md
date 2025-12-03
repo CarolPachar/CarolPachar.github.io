@@ -102,16 +102,6 @@ von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Comput
 Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
 
 
-## Citations
-
-Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mapping study of clone visualization. Computer Science Review, 37, Article 100266.
-https://doi.org/10.1016/j.cosrev.2020.100266
-
-von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
-
-Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
-
-
 
 Please ignore anything below this line. :) 
 ### Step 1: Handling Missing Values
