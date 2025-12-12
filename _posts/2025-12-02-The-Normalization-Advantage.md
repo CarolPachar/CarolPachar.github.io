@@ -93,7 +93,9 @@ Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mappi
     clone visualization. Computer Science Review, 37, Article 100266.
     https://doi.org/10.1016/j.cosrev.2020.100266
 
-Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
+Spielman, D. A. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications 
+    [Video file]. Retrieved from  
+    http://www.youtube.com/watch?v=EjpMnU79neo
 
 von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 
     17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
