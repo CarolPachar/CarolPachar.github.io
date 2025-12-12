@@ -10,8 +10,8 @@ categories: [Laplacian Matrix, Spectral Graph Theory, Python]
 
 Clustering is a data analysis technique. When looking at large data sets, clustering can help us identify groups of data that have a “similar behavior” (von Luxburg, 2007, p. 395). 
 The goal of clustering is to make groups of data in which the data points inside of a group are similar to each other while datapoints from different groups are dissimilar 
-to each other (Luxburg, 2007, p. 396). Spectral clustering is a clustering algorithm that's been found to have superior advantages compared to traditional clustering algorithms such as k-means or single 
-linkage (Luxburg, 2007, p. 395). 
+to each other (von Luxburg, 2007, p. 396). Spectral clustering is a clustering algorithm that's been found to have superior advantages compared to traditional clustering algorithms such as k-means or single 
+linkage (von Luxburg, 2007, p. 395). 
 
 Next, I will introduce the mathematical objects used in spectral clustering: similarity graphs and laplacian matrices.
 
@@ -24,7 +24,7 @@ Often, similarity is a function of the edges, that is, strongly connected nodes 
 ![]
 
 ## A Laplacian Matrix
-The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (Luxburg, 2007, p. 397). 
+The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (von Luxburg, 2007, p. 397). 
 
 A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017, 29:59).
 ![]
@@ -95,10 +95,4 @@ Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs:
 
 von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 
     17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
-
-
-## End of code
-
-
-Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
 
