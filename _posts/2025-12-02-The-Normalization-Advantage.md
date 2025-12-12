@@ -80,7 +80,7 @@ combined spectral decomposition and $k$-means steps across both datasets.
 In short, the Normalized Laplacian matrix proved to be the better choice of matrices for the spectral clustering algorithm when applied in Zachary's Karate Club and in the 
 Stochastic Block Model datasets. 
 
-I can definitely see myself in the future looking back at this project. After graduation, I hope to land a career in data science which values probability techniques. The goal of this project was to help me deepen my understanding of one of these techniques, utilizing a laplacian matrix. Both the literature review and the experiment that I've done have definitely helped me get my feet in this topic. In the future, for my research (whether it be over the summer or for my capstone), I hope I can take this project a step further by applying it on larger data sets, or even refine the code that I've made. 
+I can definitely see myself in the future looking back at this project. After graduation, I hope to land a career in data science, which values probability techniques. The goal of this project was to help me deepen my understanding of one of these techniques, utilizing a laplacian matrix. Both the literature review and the experiment that I've done have definitely helped me get my feet in this topic. In the future, for my research (whether it be over the summer or for my capstone), I hope I can take this project a step further by applying it on larger data sets, or even refine the code that I've made. 
 
 
 ## Citations
