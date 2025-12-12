@@ -21,26 +21,23 @@ Next, I will introduce the mathematical objects used in spectral clustering: sim
 A similarity graph is a node-link diagram in which nodes are laid out according to their similarity. The more similar two nodes are to each other, the closer they appear in the diagram (Hammad et al., 2020, p. 36). 
 Often, similarity is a function of the edges, that is, strongly connected nodes are attracted to each other (Hammad et al., 2020, p. 36). There are different variants of similarity graphs, which differ in what nodes and edges represent and how similarity is defined (Hammad et al., 2020, p. 36). 
 
-![]
+<img width="597" height="557" alt="Zachary&#39;s_karate_club (1)" src="https://github.com/user-attachments/assets/820b33d0-26c6-4a2f-ad34-da9fe203d561" />
+
+"Zachary's karate club" by CuneytAkcora is licensed under CC BY-SA 4.0.
+
 
 ## A Laplacian Matrix
 The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (von Luxburg, 2007, p. 397). 
 
 A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017, 29:59).
-![]
-
 
 ## A Real-World Application of Laplacian Matrices 
-We have the following graph:
+Let each node represent a gene. Say we initially only know the values of gene A and gene D (gena A has a value of 0 and gene D has a value of 10). We want to guess the values of the function at other nodes. We know that some of these genes interact with each other. A scientist might be trying to figure out which genes might be implicated in a disease, like diabetes. For this example, let 0 mean that the gene is not implicated in diabetes while 10 means that the gene is certain to be implicated in diabetes. By using the known values of gene A and gene D, we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017, 4:54-8:19) (note that the scale Spielman uses in the video lecture is from 0 to 1 with 0 meaning that the gene is not implicated in diabetes while 1 means that the gene is certain to be implicated in diabetes). 
 
-![]
+<img width="512" height="427" alt="512px-Graph-weighting-function svg" src="https://github.com/user-attachments/assets/6c4741f6-9cb7-44ee-b4ad-d3b91cb7ee35" />
 
-Let each node represent a gene. We know the values of the function at some of the nodes, or genes (0 and 1). We want to guess the values of the function at other nodes. 
-We know that some of these genes interact with each other. A scientist might be trying to figure out which genes might be implicated in a disease (e.g., diabetes). 
-By using the known values of two genes (gene CDC27 with a value of 0 means that it’s not implicated in diabetes while gene ANAPC10 with a value of 1 means that it’s certain to be 
-implicated in diabetes), we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017, 4:54-8:19). 
+"Graph-weighting-function" by Rainhard Findling is licensed under CC BY-SA 3.0.
 
-![]
 
 ## Which Matrix is Better to Use?
 There are two types of laplacian matrices: the Unnormalized Laplacian matrix and the Normalized Laplacian matrix (von Luxburg, 2007, p. 397-398). In literature review, when an author says that they're using a laplacian matrix, it's usually one of these matrices (von Luxburg, 2007, p. 397). 
@@ -48,8 +45,6 @@ There are two types of laplacian matrices: the Unnormalized Laplacian matrix and
 This brings us to the question: which matrix is better to use for spectral clustering?  
 
 To answer this question, we will evaluate each matrix in terms of their clustering performance. In other words, we will be looking at the adjusted rand index and the runtime. 
-The adjusted rand index is a metric that's used to measure clustering performance. It compares two different clusterings: the predicted clustering from a model and a known accurate clustering. 
-Runtime refers to how long it takes for an algorithm to execute.
 
 In order to evaluate each matrix's performance when used in spectral clustering, I've applied a spectral clustering function on two benchmark graph datasets: Zachary's Karate Club and a 
 Stochastic Block Model. My approach involved using linear algebra to implement and compare the Unnormalized Laplacian and the Symmetrically Normalized Laplacian. For each matrix, 
@@ -88,8 +83,15 @@ Stochastic Block Model datasets.
 
 ## Citations
 
-Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mapping study of clone visualization. Computer Science Review, 37, Article 100266.
-https://doi.org/10.1016/j.cosrev.2020.100266
+CuneytAkcora. (2017). Zachary’s karate club [Digital Image]. Wikimedia Commons.
+    https://commons.wikimedia.org/w/index.php?curid=57742757
+
+Findling, R. (2010). Graph-weighting-function [Digital image]. Wikimedia Commons.
+    https://commons.wikimedia.org/w/index.php?curid=11806011
+
+Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mapping study of 
+    clone visualization. Computer Science Review, 37, Article 100266.
+    https://doi.org/10.1016/j.cosrev.2020.100266
 
 Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
 
