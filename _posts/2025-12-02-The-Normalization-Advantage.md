@@ -8,10 +8,10 @@ categories: [Laplacian Matrix, Spectral Graph Theory, Python]
 
 ## Introduction
 
-Clustering is a data analysis technique. When looking at large data sets, clustering can help us identify groups of data that have a “similar behavior”. 
+Clustering is a data analysis technique. When looking at large data sets, clustering can help us identify groups of data that have a “similar behavior” (von Luxburg, 2007, p. 395). 
 The goal of clustering is to make groups of data in which the data points inside of a group are similar to each other while datapoints from different groups are dissimilar 
-to each other. Spectral clustering is a clustering algorithm that's been found to have superior advantages compared to traditional clustering algorithms such as k-means or single 
-linkage (von Luxburg, 2007). 
+to each other (Luxburg, 2007, p. 396). Spectral clustering is a clustering algorithm that's been found to have superior advantages compared to traditional clustering algorithms such as k-means or single 
+linkage (Luxburg, 2007, p. 395). 
 
 Next, I will introduce the mathematical objects used in spectral clustering: similarity graphs and laplacian matrices.
 
@@ -25,7 +25,7 @@ nodes and edges represent and how similarity is defined (Hammad et al., 2020).
 ![]
 
 ## A Laplacian Matrix
-The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (von Luxburg, 2007). 
+The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (Luxburg, 2007, p. 397). 
 
 A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017).
 ![]
@@ -61,23 +61,20 @@ the $k$-means algorithm.
 
 ## Result
 
-1. Zachary's Karate Club 
+1. Zachary's Karate Club
 
-$$Matrix       |    ARI (Clustering Quality) |  Runtime (seconds)$$ 
-
-$$Unnormalized |    0.0000                 |   0.0728$$      
-
-$$Normalized   |    0.0216                 |   0.0039$$ 
-
+| Matrix | ARI (Clustering Quality)    | Runtime (seconds)    |
+| :---:   | :---: | :---: |
+| Unnormalized | 0.0000   | 0.0728   |
+| Normalized | 0.0216   | 0.0039   |
 
 
 2. Stochastic Block Model (SBM) 
-_______________________________________________________________
-Matrix       |    ARI (Clustering Quality) |  Runtime (seconds) 
 
-Unnormalized |    $0.0015$                 |   $0.0602$      
-
-Normalized   |    $0.6789$                 |   $0.0037$ 
+| Matrix | ARI (Clustering Quality)    | Runtime (seconds)    |
+| :---:   | :---: | :---: |
+| Unnormalized | 0.0015   | 0.0602   |
+| Normalized | 0.6789   | 0.0037   |
 
 
 ## Conclusion 
@@ -97,30 +94,14 @@ Stochastic Block Model datasets.
 Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mapping study of clone visualization. Computer Science Review, 37, Article 100266.
 https://doi.org/10.1016/j.cosrev.2020.100266
 
-von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
-
 Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
 
+von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 
+    17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
 
 
-Please ignore anything below this line. :) 
-### Step 1: Handling Missing Values
+## End of code
 
-```python
-# Example Python code block
-import pandas as pd
-df = pd.read_csv('train.csv')
-print(df.isnull().sum())
-
-
-
-
-## Citations
-
-Hammad, M., Basit, H. A., Jarzabek, S., & Koschke, R. (2020). A systematic mapping study of clone visualization. Computer Science Review, 37, Article 100266.
-https://doi.org/10.1016/j.cosrev.2020.100266
-
-von Luxburg, U. (2007). A tutorial on spectral clustering. Statistics and Computing, 17(4), 395–416. https://doi.org/10.1007/s11222-007-9033-z
 
 Spielman, D. A. [uwaterloo]. (2017, April 17). The Laplacian Matrices of Graphs: Algorithms and Applications [Video]. YouTube. http://www.youtube.com/watch?v=EjpMnU79neo
 
