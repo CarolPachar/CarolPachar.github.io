@@ -73,9 +73,7 @@ the $k$-means algorithm.
 
 The main finding was that the choice of Laplacian matrix has a massive impact on clustering performance.
 
-The Normalized Laplacian provided dramatically superior clustering quality over the Unnormalized Laplacian in the structured SBM dataset, where it achieved an ARI of 0.6789 
-compared to the near-random performance of the Unnormalized Laplacian (ARI 0.0015). It also also offered a significantly faster runtime (up to 18x faster in the Karate Club trial) for the 
-combined spectral decomposition and $k$-means steps across both datasets.
+The quantative clustering performance for each matrix is clear: the Normalized Laplacian matrix outperformed the Unnormalized Laplacian matrix, in terms of clustering quality, when applied in both data sets. For example, under the SBM data set, the Normalized Laplacian achieved an ARI of 0.6789 compared to the near-random performance of the Unnormalized Laplacian, which had an ARI of 0.0015. In terms of runtime, the Normalized Laplacian offered a significantly faster runtime (up to 18x faster in the Karate Club trial) for the combined spectral decomposition and $k$-means steps across both datasets.
 
 In short, the Normalized Laplacian matrix proved to be the better choice of matrices for the spectral clustering algorithm when applied in Zachary's Karate Club and in the 
 Stochastic Block Model datasets. 
