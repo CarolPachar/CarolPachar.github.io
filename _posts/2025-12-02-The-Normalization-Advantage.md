@@ -18,16 +18,15 @@ Next, I will introduce the mathematical objects used in spectral clustering: sim
 
 ## Similarity Graphs
  
-A similarity graph is a node-link diagram in which nodes are laid out according to their similarity. The more similar two nodes are to each other, the closer they appear in the diagram. 
-Often, similarity is a function of the edges, that is, strongly connected nodes are attracted to each other. There are different variants of Similarity Graphs, which differ in what 
-nodes and edges represent and how similarity is defined (Hammad et al., 2020). 
+A similarity graph is a node-link diagram in which nodes are laid out according to their similarity. The more similar two nodes are to each other, the closer they appear in the diagram (Hammad et al., 2020, p. 36). 
+Often, similarity is a function of the edges, that is, strongly connected nodes are attracted to each other (Hammad et al., 2020, p. 36). There are different variants of similarity graphs, which differ in what nodes and edges represent and how similarity is defined (Hammad et al., 2020, p. 36). 
 
 ![]
 
 ## A Laplacian Matrix
 The main tool of spectral clustering are laplacian matrices. There is a whole field that's dedicated to studying these matrices, called spectral graph theory (Luxburg, 2007, p. 397). 
 
-A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017).
+A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017, 29:59).
 ![]
 
 
@@ -39,14 +38,12 @@ We have the following graph:
 Let each node represent a gene. We know the values of the function at some of the nodes, or genes (0 and 1). We want to guess the values of the function at other nodes. 
 We know that some of these genes interact with each other. A scientist might be trying to figure out which genes might be implicated in a disease (e.g., diabetes). 
 By using the known values of two genes (gene CDC27 with a value of 0 means that it’s not implicated in diabetes while gene ANAPC10 with a value of 1 means that it’s certain to be 
-implicated in diabetes), we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017). 
+implicated in diabetes), we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017, 4:54-8:19). 
 
 ![]
 
 ## Which Matrix is Better to Use?
-In most literature reviews, when an author is using a laplacian matrix, they tend to just call it the "graph Laplacian". However, I believe that a more precise distinction is necessary:
-there are two types of laplacian matrices: the Unnormalized Laplacian matrix and the Normalized Laplacian matrix (von Luxburg, 2007). When an author says that they're using a 
-laplacian matrix, it's usually one of these matrices. 
+There are two types of laplacian matrices: the Unnormalized Laplacian matrix and the Normalized Laplacian matrix (von Luxburg, 2007, p. 397-398). In literature review, when an author says that they're using a laplacian matrix, it's usually one of these matrices (von Luxburg, 2007, p. 397). 
 
 This brings us to the question: which matrix is better to use for spectral clustering?  
 
