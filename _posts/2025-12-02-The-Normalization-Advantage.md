@@ -19,7 +19,9 @@ Next, I will introduce the mathematical objects used in spectral clustering: sim
 ## Similarity Graphs
  
 A similarity graph is a node-link diagram in which nodes are laid out according to their similarity. The more similar two nodes are to each other, the closer they appear in the diagram (Hammad et al., 2020, p. 36). 
-Often, similarity is a function of the edges, that is, strongly connected nodes are attracted to each other (Hammad et al., 2020, p. 36). There are different variants of similarity graphs, which differ in what nodes and edges represent and how similarity is defined (Hammad et al., 2020, p. 36). 
+Often, similarity is a function of the edges, that is, strongly connected nodes are attracted to each other (Hammad et al., 2020, p. 36). There are different variants of similarity graphs, which differ in what nodes and edges represent and how similarity is defined (Hammad et al., 2020, p. 36).
+
+Below is a classic example of a similarity graph that demonstrates Zachary's karate club. 
 
 <img width="597" height="557" alt="Zachary&#39;s_karate_club (1)" src="https://github.com/user-attachments/assets/820b33d0-26c6-4a2f-ad34-da9fe203d561" />
 
@@ -32,7 +34,7 @@ The main tool of spectral clustering are laplacian matrices. There is a whole fi
 A laplacian matrix is defined as a matrix that is diagnolly dominant, contains non-positive off-diagnol entries, and is symmetric (Spielman, 2017, 29:59).
 
 ## A Real-World Application of Laplacian Matrices 
-Let each node represent a gene. Say we initially only know the values of gene A and gene D (gene A has a value of 0 and gene D has a value of 10). We want to guess the values of the function at other nodes. We know that some of these genes interact with each other. A scientist might be trying to figure out which genes might be implicated in a disease, like diabetes. For this example, let 0 mean that the gene is not implicated in diabetes while 10 means that the gene is certain to be implicated in diabetes. By using the known values of gene A and gene D, we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017, 4:54-8:19) (note that the scale Spielman uses in the video lecture is from 0 to 1 with 0 meaning that the gene is not implicated in diabetes while 1 means that the gene is certain to be implicated in diabetes). 
+Using the graph shown below, let each node represent a gene. Say we initially only know the values of gene A and gene D (gene A has a value of 0 and gene D has a value of 10). We want to guess the values of the function at other nodes. We know that some of these genes interact with each other. A scientist might be trying to figure out which genes might be implicated in a disease, like diabetes. For this example, let 0 mean that the gene is not implicated in diabetes while 10 means that the gene is certain to be implicated in diabetes. By using the known values of gene A and gene D, we can use the Laplacian matrix to calculate the other gene’s probability of being related to the disease (Spielman, 2017, 4:54-8:19) (note that the scale Spielman uses in the video lecture is from 0 to 1 with 0 meaning that the gene is not implicated in diabetes while 1 means that the gene is certain to be implicated in diabetes). 
 
 <img width="512" height="427" alt="512px-Graph-weighting-function svg" src="https://github.com/user-attachments/assets/6c4741f6-9cb7-44ee-b4ad-d3b91cb7ee35" />
 
