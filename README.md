@@ -27,7 +27,7 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 * Created a Python program to investigate any underlying patterns or properties in Pythagorean Triples (a,b,c) which satisfy the Pythagorean Theorem a^2 + b^2 = c^2.  
 * By using matplotlib and numpy, a graphical and algebraic approach was used in order to prove what was hypothesized: that every Pythagorean Triple is a positive integer multiple of a primitive Pythagorean Triple, and that these primitive Pythagorean triples correspond to the unique lines observed in the graphical representation of the Pythagorean doubles (a,b). 
 
-The Normalization Advantage (September 2025 - December 2025)
+[The Normalization Advantage](https://github.com/CarolPachar/The-Normalization-Advantage.git) (September 2025 - December 2025)
 * Created a Python program to investigate the difference (in terms of clustering quality and runtime) between using a normalized laplacian matrix versus an unnormalized laplacian matrix for spectral clustering on two datasets: Zachary’s Karate Club and the Stochastic Block Model.
 * Developed a spectral clustering function as well as implemented the normalized and the unnormalized laplacian matrices. 
 
