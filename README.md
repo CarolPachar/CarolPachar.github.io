@@ -35,7 +35,7 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
   - Programming langauges: Python, SQL, Java 
   - Platforms: MacOS, Windows
   - Languages: English, Spanish
-  - Interest: Manga, Video Games, Badminton, Cooking, Flying Planes  
+  - Interests: Manga, Video Games, Badminton, Cooking, Flying Planes  
 
 
 
