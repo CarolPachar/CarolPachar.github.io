@@ -5,8 +5,8 @@ Bachelor of Science in Mathematics
 
 Concentration: Pure Mathematics
 
-Related Coursework: Computing in Python, Data Structures, Discrete Mathematics, Calculus Sequence 1-3, Linear Algebra, Scientific 
-and Mathematical Computing 
+Related Coursework: Computing in Python, Data Structures & Algorithms, Discrete Mathematics, Calculus Sequence 1-3, Linear Algebra, Differential Equations, Scientific 
+and Mathematical Computing in Python 
 
 ## Work Experience
 Tutor @ Dutchess Community College (February 2023 – December 2024) 
@@ -19,11 +19,11 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 * Presented and spoke about research findings in the RAPS conference hosted by Clarkson University   
 
 ## Projects
-Finding Carmichael Numbers (September 2025)
+[Finding False Prime Numbers](https://github.com/CarolPachar/Finding-False-Primes.git) (September 2025)
 * Created a Python program to find all possible non-prime numbers that satisfy Fermat’s little theorem, also called Carmichael numbers. These numbers get increasingly sparse as numbers get larger with the smallest number being 561. 
 * Successfully found up to 30 Carmichael numbers with the greatest number being calculated as 552,721 in less than a second.
 
-Pythagorean Triples (October 2025)
+[Pythagorean Triples](https://github.com/CarolPachar/Pythagorean-Triples.git) (October 2025)
 * Created a Python program to investigate any underlying patterns or properties in Pythagorean Triples (a,b,c) which satisfy the Pythagorean Theorem a^2 + b^2 = c^2.  
 * By using matplotlib and numpy, a graphical and algebraic approach was used in order to prove what was hypothesized: that every Pythagorean Triple is a positive integer multiple of a primitive Pythagorean Triple, and that these primitive Pythagorean triples correspond to the unique lines observed in the graphical representation of the Pythagorean doubles (a,b). 
 
@@ -32,7 +32,7 @@ The Normalization Advantage (September 2025 - December 2025)
 * Developed a spectral clustering function as well as implemented the normalized and the unnormalized laplacian matrices. 
 
 ## Skills & Interests 
-  - Programming langauges: Python, SQL, Java, LaTeX
+  - Programming langauges: Python, SQL, Java 
   - Platforms: MacOS, Windows
   - Languages: English, Spanish
   - Interest: Manga, Video Games, Badminton, Cooking, Flying Planes  
