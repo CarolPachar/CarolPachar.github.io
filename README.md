@@ -29,7 +29,13 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 
 [The Normalization Advantage](https://github.com/CarolPachar/The-Normalization-Advantage.git) (September 2025 - December 2025)
 * Developed a Python program to investigate the difference (in terms of clustering quality and runtime) between using a normalized Laplacian matrix versus an unnormalized Laplacian matrix for spectral clustering on two datasets: Zachary’s Karate Club and the Stochastic Block Model.
-* Developed a spectral clustering function as well as implemented the normalized and the unnormalized Laplacian matrices. 
+* Developed a spectral clustering function as well as implemented the normalized and the unnormalized Laplacian matrices.
+
+
+[Machine Learning: Won’t You Be My (K-Nearest) Neighbor?](https://github.com/CarolPachar/Won-t-you-be-my-K-nearest-neighbor-.git) (March 2026) 
+* Developed a Python-based machine learning pipeline to classify 60,000 images from the MNIST Database using supervised (K-Nearest Neighbors) and unsupervised (K-Means Clustering) learning methods. I utilized Scikit-learn for model implementation, NumPy for vectorization of $28 \times 28$ pixel arrays, and Matplotlib for visualizing cluster centroids and error distribution. 
+* Optimized model performance by analyzing the relationship between the hyperparameter $K$, training set size, and prediction accuracy, achieving a peak accuracy of approximately 97% with $k=3$ on the full dataset.
+* Implemented a hybrid data compression technique using K-Means to reduce the training set to 100 representative centroids; this reduced KNN execution time by over 98% (from 24 seconds to 0.4 seconds) while maintaining an 82% classification accuracy.
 
 ## Skills & Interests 
   - Programming Languages: Python, SQL, Java 
