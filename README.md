@@ -38,8 +38,8 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 
 
 [Machine Learning: Won’t You Be My (K-Nearest) Neighbor?](https://github.com/CarolPachar/Won-t-you-be-my-K-nearest-neighbor-.git) (March 2026) 
-* Developed a Python-based machine learning pipeline using Scikit-learn's KMeans and KNN algorithm as well as NumPy and Matplotlib to classify 60,000 images from the MNIST Database using supervised (K-Nearest Neighbors) and unsupervised (K-Means Clustering) learning methods. NumPy was used for vectorization of $28 \times 28$ pixel arrays, and Matplotlib was used for visualizing cluster centroids and error distribution. 
-* Optimized model performance by analyzing the relationship between the hyperparameter $K$, training set size, and prediction accuracy, achieving a peak accuracy of approximately 97% with $k=3$ on the full dataset.
+* Developed a Python-based machine learning pipeline using Scikit-learn's KMeans and KNN algorithm as well as NumPy and Matplotlib to classify 60,000 images from the MNIST Database using supervised (K-Nearest Neighbors) and unsupervised (K-Means Clustering) learning methods. NumPy was used for vectorization of 28 x 28 pixel arrays, and Matplotlib was used for visualizing cluster centroids and error distribution. 
+* Optimized model performance by analyzing the relationship between the hyperparameter K, training set size, and prediction accuracy, achieving a peak accuracy of approximately 97% with k=3 on the full dataset.
 * Implemented a data compression technique using K-Means to reduce the training set to 100 representative centroids; this reduced KNN execution time by over 98% (from 24 seconds to 0.4 seconds) while maintaining an 82% classification accuracy.
 
 ## Skills & Interests 
