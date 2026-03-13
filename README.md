@@ -31,7 +31,7 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 * Developed a Python program to investigate the difference (in terms of clustering quality and runtime) between using a normalized Laplacian matrix versus an unnormalized Laplacian matrix for spectral clustering on two datasets: Zachary’s Karate Club and the Stochastic Block Model.
 * Developed a spectral clustering function as well as implemented the normalized and the unnormalized Laplacian matrices.
 
-[What's in a Name?](https://github.com/CarolPachar/What-s-in-a-Name-.git)
+[What's in a Name?](https://github.com/CarolPachar/What-s-in-a-Name-.git) (February 2026)
 * Developed a Python-based data pipeline using Pandas, NumPy, and Matplotlib to investigate the correlation between macro-economic events (e.g., the 2008 Great Recession) and birth rate trajectories across four U.S. states.
 * Built an automated system to clean and organize large datasets, using groupby methods to compare how often traditional names stayed popular versus the rise of newer, more diverse naming trends.
 * Visualized 114 years of demographic shifts through multi-paneled plots, identifying Arizona as a growth outlier and calculating the dominance frequency of names like Michael versus the rise of modern variety.
