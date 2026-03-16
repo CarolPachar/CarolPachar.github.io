@@ -3,10 +3,7 @@
 ### Education
 Bachelor of Science in Mathematics
 
-Concentration: Pure Mathematics
-
-Related Coursework: Computing in Python, Data Structures and Algorithms, Discrete Mathematics, Calculus Sequence 1-3, Linear Algebra, Differential Equations, Scientific 
-and Mathematical Computing in Python 
+* Related Coursework: Computing in Python I-II, Scientific and Mathematical Computing in Python, Data Structures and Algorithms, Data-Oriented Computing, Probability and Statistics, Calculus I - III, Linear Algebra
 
 ## Work Experience
 Tutor @ Dutchess Community College (February 2023 – December 2024) 
@@ -42,8 +39,14 @@ Research Intern @ Clarkson University (May 2022 – August 2022)
 * Optimized model performance by analyzing the relationship between the hyperparameter K, training set size, and prediction accuracy, achieving a peak accuracy of approximately 97% with k=3 on the full dataset.
 * Implemented a data compression technique using K-Means to reduce the training set to 100 representative centroids; this reduced KNN execution time by over 98% (from 24 seconds to 0.4 seconds) while maintaining an 82% classification accuracy.
 
+[Statistical Process Modeling & Predictive Trend Analysis of CO2 concentration](https://github.com/CarolPachar/Statistical-Process-Modeling-Trend-Analysis-of-CO2-concentration-.git) (January-February 2026)
+* Developed a statistical modeling pipeline in MATLAB to analyze long-term atmospheric CO2 concentrations, utilizing linear and quadratic regression to identify underlying growth trends..
+* Performed residual analysis to isolate seasonal variations from long-term trajectories, calculating the coefficient of determination to validate model accuracy.
+* Visualized multi-variable outputs through customized subplots, identifying anomalies and confirming the efficacy of a quadratic fit over simple linear models. 
+
+
 ## Skills & Interests 
-  - Programming Languages: Python, SQL, Java 
+  - Programming Languages: Python, SQL, Java, MATLAB 
   - Platforms: MacOS, Windows
   - Languages: English, Spanish
   - Interests: manga, video games, badminton, cooking, flying planes  
