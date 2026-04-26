@@ -1,5 +1,4 @@
-# Carol Pachar 
-## Mathematics Student at the University at Buffalo SUNY
+# Mathematics Student at the University at Buffalo SUNY
 
 ### Education
 Bachelor of Science in Mathematics
