@@ -21,7 +21,7 @@ Tutor @ Dutchess Community College (February 2023 – December 2024)
 * Implemented Laplace Smoothing to resolve the zero-frequency problem for rare tokens (words) and utilized log-space probability transformations to prevent numerical underflow.
 
 [Machine Learning: KMeans & KNN for Number Classification](https://github.com/CarolPachar/Won-t-you-be-my-K-nearest-neighbor-.git) (March 2026) 
-* Utilized Scikit-learn’s KMeans and KNN algorithms to classify 60,000 images of the digits 0 to 9 from the MNIST dataset.
+* Utilized Scikit-learn’s KMeans and KNN algorithms to classify 60,000 images of the digits 0 to 9 from the MNIST handwritten digit dataset. 
 * Optimized model performance by analyzing the relationship between the hyperparameter K, training set size, and prediction accuracy. 
 * Implemented a data compression technique using K-Means to reduce the training set to 100 representative centroids; this reduced KNN execution time by over 98% (from 24 seconds to 0.4 seconds) while maintaining an 82% classification accuracy. 
 
