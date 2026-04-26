@@ -16,8 +16,8 @@ Tutor @ Dutchess Community College (February 2023 – December 2024)
 * Utilized Pandas, NumPy, and Matplotlib to investigate the correlation between macro-economic events (e.g., the 2008 Recession) and birth rate trajectories across four U.S. states. 
 * Utilized groupby methods to compare how often traditional names stayed popular versus the rise of newer, more diverse naming trends.
 
-[Machine Learning: Naive Bayes' Classifer & Movie Reviews](https://github.com/CarolPachar/NaiveBayes-Classifying-Reviews.git) (February-March 2026) 
-* Developed a Naive Bayes' Classifier from scratch in Python to classify 25,000 movie reviews to determine if a review was a positive or negative review. Regex and Pandas were utilized for tokenization and data frame usage. 
+[Machine Learning: Naive Bayes Classifer & Movie Reviews](https://github.com/CarolPachar/NaiveBayes-Classifying-Reviews.git) (February-March 2026) 
+* Developed a Naive Bayes Classifier from scratch in Python to classify 25,000 movie reviews to determine if a review was a positive or negative review. Regex and Pandas were utilized for tokenization and data frame usage. 
 * Implemented Laplace Smoothing to resolve the zero-frequency problem for rare tokens (words) and utilized log-space probability transformations to prevent numerical underflow.
 
 [Machine Learning: KMeans & KNN for Number Classification](https://github.com/CarolPachar/Won-t-you-be-my-K-nearest-neighbor-.git) (March 2026) 
