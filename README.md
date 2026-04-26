@@ -12,7 +12,7 @@ Tutor @ Dutchess Community College (February 2023 – December 2024)
 
 ## Projects
 [Baby Names & Birth Rate Analysis](https://github.com/CarolPachar/What-s-in-a-Name-.git) (February 2026) 
-* Performed an analysis on a data set containing the number of babies registered with a given first name in each US state from 1910 to 2024. 
+* Performed an analysis on a data set containing the number of babies registered with a given first name in each U.S. state from 1910 to 2024. 
 * Utilized Pandas, NumPy, and Matplotlib to investigate the correlation between macro-economic events (e.g., the 2008 Recession) and birth rate trajectories across four U.S. states. 
 * Utilized groupby methods to compare how often traditional names stayed popular versus the rise of newer, more diverse naming trends.
 
