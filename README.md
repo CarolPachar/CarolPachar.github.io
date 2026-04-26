@@ -3,7 +3,7 @@
 ### Education
 Bachelor of Science in Mathematics
 
-* Related Coursework: Intro to Computing 1-2, Scientific and Mathematical Computing in Python, Data Structures and Algorithms, Data-Oriented Computing & Machine Learning, Intro to SQL, Probability and Statistics, Calculus 1-3, Linear Algebra
+* Related Coursework: Intro to Computing 1-2, Scientific and Mathematical Computing in Python, Data Structures and Algorithms, Data-Oriented Computing, Machine Learning, Intro to SQL, Probability and Statistics, Calculus 1-3, Linear Algebra
 
 ## Work Experience
 Tutor @ Dutchess Community College (February 2023 – December 2024) 
