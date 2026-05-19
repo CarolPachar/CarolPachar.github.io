@@ -36,7 +36,7 @@ Tutor @ Dutchess Community College (February 2023 – December 2024)
 * Programming Languages: Python (Matplotlib, NumPy, PyTorch, Pandas, Scikit-learn), SQL, Java, MATLAB
 * Other Technical Skills: Microsoft Office
 * Languages: English, Spanish 
-* Interests: Manga, Video Games, Badminton, Cooking, Planes 
+* Interests: Manga, Flying Planes, Soccer, Badminton, Cooking 
  
 
 
